@@ -37,7 +37,7 @@ apt upgrade
 
 apt install python 
 
-git clone 
+git clone https://github.com/bohaydar/Dragon-tool.git
 
 chmod +x *
 
