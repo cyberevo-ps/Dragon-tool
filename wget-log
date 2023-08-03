@@ -1,0 +1,21 @@
+--2023-08-03 13:40:39--  https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-arm.zip?raw=true
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://github.com/Marcel0Sousa/NgrokTest/blob/master/ngrok-stable-linux-arm.zip?raw=true [following]
+--2023-08-03 13:40:52--  https://github.com/Marcel0Sousa/NgrokTest/blob/master/ngrok-stable-linux-arm.zip?raw=true
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/Marcel0Sousa/NgrokTest/raw/master/ngrok-stable-linux-arm.zip [following]
+--2023-08-03 13:40:54--  https://github.com/Marcel0Sousa/NgrokTest/raw/master/ngrok-stable-linux-arm.zip
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/Marcel0Sousa/NgrokTest/master/ngrok-stable-linux-arm.zip [following]
+--2023-08-03 13:40:55--  https://raw.githubusercontent.com/Marcel0Sousa/NgrokTest/master/ngrok-stable-linux-arm.zip
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2023-08-03 14:07:10--  (try: 2)  https://raw.githubusercontent.com/Marcel0Sousa/NgrokTest/master/ngrok-stable-linux-arm.zip
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... 
