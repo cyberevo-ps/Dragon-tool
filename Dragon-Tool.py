@@ -1,4 +1,3 @@
-#import utils
 import os
 import sys,time
 os.system("clear")
@@ -58,8 +57,7 @@ s = """
 \033[1;32m      |\033[1;36m           [13]     ==>\033[1;35m     Google Dork\033[1;32m              |
 \033[1;32m      |\033[1;36m           [14]     ==>\033[1;35m     Ngrok Install\033[1;32m            |
 \033[1;32m      |\033[1;36m           [15]     ==>\033[1;35m     Ngrok Ports\033[1;32m              |
-\033[1;32m      |\033[1;36m           [16]     ==>\033[1;35m     Seeker\033[1;32m\033[1;32m                   |
-\033[1;32m      |\033[1;36m           [17]     ==>\033[1;35m     Instgram Info\033[1;32m\033[1;32m            |
+\033[1;32m      |\033[1;36m           [16]     ==>\033[1;35m     Instgram Info\033[1;32m\033[1;32m                   |
       |_____________________________________________________|
       |_____________________________________________________|
 """
@@ -67,7 +65,7 @@ for i in s:
      time.sleep(0.00)
      sys.stdout.write(i)
      sys.stdout.flush()
-vvvv = input('''\033[1;34m                                            
+vvvv = input('''\033[1;34m
 
             Enter Number\033[1;35m ==> √  \033[1;36m:    ''')
 if vvvv =='':
@@ -105,7 +103,9 @@ elif vvvv =="14":
      os.system("sh termux-ngrok.sh")
 elif vvvv =="15":
      os.system("python ngrok.py")
+#elif vvvv =="16":
+#     os.system("git clone https://github.com/thewhiteh4t/seeker.git")
+#     os.system("cd seeker")
+#     os.system("python seeker.py")
 elif vvvv =="16":
-     os.system("python seeker.py")
-elif vvvv =="17":
      os.system("python ins.py")
