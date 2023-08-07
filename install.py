@@ -1,6 +1,6 @@
 import os
 os.system("clear")
-print ("""
+print ("""\033[1;32m
 
  _           _        _ _
 (_)         | |      | | |
@@ -15,6 +15,7 @@ os.system("pip install pytube")
 os.system("pip install socket")
 os.system("pip install -r requirements.txt")
 os.system("pip install termcolor")
+os.system("pip install lolcat")
 os.system("./install.sh")
 os.system("python req.py")
 os.system("clear")
