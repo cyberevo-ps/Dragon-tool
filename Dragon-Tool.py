@@ -64,7 +64,8 @@ text = """
       |           [14]     ==>     Ngrok Install            |
       |           [15]     ==>     Ngrok Ports              |
       |           [16]     ==>     Instgram Info            |
-      |           [17]     ==>     Termux Style             |
+      |           [17]     ==>     Cam Hacker               |
+      |           [00]     ==>     Exit The Tool            |
       |_____________________________________________________|
       |_____________________________________________________|
 """
@@ -111,4 +112,6 @@ elif vvvv =="15":
 elif vvvv =="16":
      os.system("python ins.py")
 elif vvvv =="17":
-     os.system("bash setup.sh && tstyle")
+     os.system("bash ch.sh")
+elif vvvv =="00" :
+     os.system("clear")
