@@ -54,10 +54,11 @@ s = """
 \033[1;32m      |\033[1;36m           [10]     ==>\033[1;35m     Ip website\033[1;32m               |
 \033[1;32m      |\033[1;36m           [11]     ==>\033[1;35m     Install YouTube video\033[1;32m    |
 \033[1;32m      |\033[1;36m           [12]     ==>\033[1;35m     Scan Website & IP\033[1;32m        |
-\033[1;32m      |\033[1;36m           [13]     ==>\033[1;35m     Google Dork\033[1;32m              |
+\033[1;32m      |\033[1;36m           [13]     ==>\033[1;35m     Cam Hackers\033[1;32m              |
 \033[1;32m      |\033[1;36m           [14]     ==>\033[1;35m     Ngrok Install\033[1;32m            |
 \033[1;32m      |\033[1;36m           [15]     ==>\033[1;35m     Ngrok Ports\033[1;32m              |
 \033[1;32m      |\033[1;36m           [16]     ==>\033[1;35m     Instgram Info\033[1;32m\033[1;32m            |
+\033[1;32m      |\033[1;36m           [17]     ==>\033[1;35m     Termux Style\033[1;32m             |
       |_____________________________________________________|
       |_____________________________________________________|
 """
@@ -103,9 +104,7 @@ elif vvvv =="14":
      os.system("sh termux-ngrok.sh")
 elif vvvv =="15":
      os.system("python ngrok.py")
-#elif vvvv =="16":
-#     os.system("git clone https://github.com/thewhiteh4t/seeker.git")
-#     os.system("cd seeker")
-#     os.system("python seeker.py")
 elif vvvv =="16":
      os.system("python ins.py")
+elif vvvv =="17":
+     os.system("bash setup.sh && tstyle")
